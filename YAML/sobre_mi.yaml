@@ -1,0 +1,78 @@
+nombre: Renzo #linea simple
+
+apellidosString: 'Mondragón Cochachi' #soporte entre comillas simples
+
+mensaje: "Hola, soy Renzo/Geanpiere Mondragón Cochachi. " #entre comillas dobles tiene soporte a caracteres especiales
+
+descripcion: |                    # se mantiene los saltos de linea
+  Soy Ingeniero de Sistemas e Informática
+  Me gusta jugar futbol y basquet.
+  Además, me gustan los animales.
+
+descripcion_lineal: >             # mantiene una única linea
+  Soy Ingeniero de Sistemas e Informática
+  Me gusta jugar futbol y basquet.
+  Además, me gustan los animales.
+
+# Datos tipo numérico
+
+edad: 28 # entero
+
+decimal_altura: 1.70 #valor decimal
+
+permisos: 0755 #valor octal (permisos)
+
+color: FFFFFF #valor hexadecimal
+
+# Valores booleanos
+
+isActive: true
+isUser: true
+
+isUser:  TRUE #booleanos soportan mayúsculas
+
+# Expresión corta
+
+isEnabled: on
+isDesabled: off
+
+# Nullables
+# las 3 son equivalencias
+
+hasData: Null # nullable soporta mayúscula
+hasInfo: null # nullable soporta mayúscula
+hasData3: ~
+
+#arreglos
+
+# lista o arreglo en bloque
+colores:
+  - blanco
+  - gris
+  - azul
+
+# lista en linea
+frutas: ['manzana', 'naranja', 'plátano']
+
+# listado de objetos
+friends_list:
+  - nombre: Jorge
+    edad: 20
+  - nombre: Alex
+    edad: 10
+
+
+#Objetos
+
+#mapeo en bloque
+
+persona:
+  nombre: Alex
+  edad: 21
+  ciudad: 'Lima'
+  activo: true
+  isAdmin: off
+
+#mapeo en linea
+persona5: { nombre: Renzo, edad: 35, ciudad: 'Piura', activo: false, isAdmin: on }
+
