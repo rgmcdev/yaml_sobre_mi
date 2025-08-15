@@ -1,0 +1,83 @@
+nombre: Renzo #linea simple
+
+nombreString: 'Renzo' #soporte entre comillas simples
+
+mensaje: "Hola, soy Renzo\nsaludo" #entre comillas dobles tiene soporte a caracteres especiales
+
+descripcion: |                    # se mantiene los saltos de linea
+  Esto es una descripción.
+  Cuenta con una segunda línea.
+  Y adicional una tercer línea.
+
+descripcion_lineal: >             # mantiene una única linea
+  Esto es una descripción.
+  Cuenta con una segunda línea.
+  Y adicional una tercer línea.
+
+# Datos tipo numérico
+
+edad: 28 # entero
+
+decimal_altura: 1.80 #valor decimal
+
+permisos: 0755 #valor octal (permisos)
+
+color: 0xFFEECC #valor hexadecimal
+
+# Valores booleanos
+
+isActive: true
+isAdmin: true
+
+isEmpty: TRUE #booleanos soportan mayúsculas
+isValid: FALSE #booleanos soportan mayúsculas
+
+# Expresión corta
+
+isEnabled: on
+isDesabled: off
+
+# Nullables
+# las 3 son equivalencias
+
+hasData: Null # nullable soporta mayúscula
+hasInfo: null # nullable soporta mayúscula
+hasData3: ~
+
+#arreglos
+
+# lista o arreglo en bloque
+colores:
+  - azul
+  - negro
+  - blanco
+
+# lista en linea
+frutas: ['manzana', 'naranja', 'plátano']
+
+# listado de objetos
+usuarios:
+  - nombre: Pedro
+    edad: 25
+  - nombre: Fernando
+    edad: 30
+
+
+#Objetos
+
+#mapeo en bloque
+
+persona:
+  nombre: Fernando
+  edad: 30
+  ciudad: 'Madrid'
+  activo: true
+  isAdmin: off
+
+#mapeo en linea
+persona2: { nombre: Carlos, edad: 35, ciudad: 'Madrid', activo: false, isAdmin: on }
+
+
+
+# caso practico
+# datos personales en un archivo yaml (utlizando todos los tipos de valores existentes)
