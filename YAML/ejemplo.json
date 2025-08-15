@@ -1,0 +1,23 @@
+{
+    "developer": {
+        "nombre": "Renzo Mondragón",
+        "edad": 28,
+        "altura": 1.70,
+        "ciudad": "Lima",
+        "lenguajes": ["Python", "JavaScript", "Go"]
+    },
+    "proyectos": [
+        {
+            "nombre": "Proyecto A",
+            "descripcion": "Desarrollo de una aplicación web",
+            "lenguaje": "Python",
+            "estado": "En progreso"
+        },
+        {
+            "nombre": "Proyecto B",
+            "descripcion": "Desarrollo de una API REST",
+            "lenguaje": "JavaScript",
+            "estado": "Completado"
+        }
+    ]
+}

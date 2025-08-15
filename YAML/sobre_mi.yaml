@@ -29,8 +29,6 @@ color: FFFFFF #valor hexadecimal
 isActive: true
 isUser: true
 
-isUser:  TRUE #booleanos soportan mayúsculas
-
 # Expresión corta
 
 isEnabled: on

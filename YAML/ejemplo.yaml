@@ -1,0 +1,21 @@
+developer:
+nombre: Renzo
+edad: 28
+ciudad: 'Lima'
+isUserActive: true
+isAdmin: false
+talla: 1.70
+Trabajo:
+  empresa: 'Tech Solutions'
+  puesto: 'Desarrollador Backend'
+  experiencia: 4
+stack:
+  - Python
+  - JavaScript
+  - Docker
+  - Kubernetes
+lenguajes:
+  - Python
+  - JavaScript
+  - Go
+  - Java

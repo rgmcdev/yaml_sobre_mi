@@ -1,0 +1,8 @@
+<developer>
+    <nombre>Renzo</nombre>
+    <apellido>Monragon</apellido>
+    <edad>28</edad>
+    <altura>1.70</altura>
+    <color>FFFFFF</color>
+    <isAdmin>true</isAdmin>
+</developer>
